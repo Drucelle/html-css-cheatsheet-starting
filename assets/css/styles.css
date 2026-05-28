@@ -1,0 +1,20 @@
+:root{
+    /* fonts */
+     --font-family:"Inter", sans-serif;
+     --font-weight-regular: 400;
+     --font-weight-bold: 700;
+
+     /* colours */
+     --color-background: #1e1e1e;
+     --color-surface: #252526;
+     --color-text: #d4d4d4; 
+     --color-accents:#569cd6;
+     --color-table-header:#2d2d2d;
+     --color-border: #3e3e3e;
+     --color-tag: #4ec9b0;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
