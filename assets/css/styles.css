@@ -77,3 +77,19 @@ td:nth-child(3) {
     background-color: var(--color-surface);
     border-radius: 4px;
 }
+footer {
+    margin-top: 2rem;
+    padding: 1.5rem 2rem;
+    border-top: 1px solid var(--color-border);
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+footer a {
+     color: var(--color-accent);
+     margin-bottom: 0 0.5rem;
+     display: inline-block;
+}
+footer p {
+    padding-bottom: 0.5rem;
+}
