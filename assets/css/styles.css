@@ -1,20 +1,47 @@
 :root{
-    /* fonts */
+    /* Fonts */
      --font-family:"Inter", sans-serif;
      --font-weight-regular: 400;
      --font-weight-bold: 700;
 
-     /* colours */
+     /* Colours */
      --color-background: #1e1e1e;
      --color-surface: #252526;
      --color-text: #d4d4d4; 
-     --color-accents:#569cd6;
+     --color-accent:#569cd6;
      --color-table-header:#2d2d2d;
      --color-border: #3e3e3e;
-     --color-tag: #4ec9b0;
-}
+
+     /*Syntax colours*/
+     --color-tag-bracket: #808080;
+     --color-tag-name: #4ec9b0;
+     --color-tag-attribute: #9cdcfe;
+     --color-tag-value: #ce9179;
+ }
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+body{
+     background-color: var(--color-background);
+     color: var(--color-text);
+     font-family: var(--font-family);
+     font-weight: var(--font-weight-regular);
+     font-optical-sizing: auto;
+     font-style: normal;
+    }
+
+/*Syntax highlighting*/
+.tag-bracket {
+     color: var(--color-tag-bracket);
+    } 
+.tag-name {
+     color: var(--color-tag-name);
+    }
+.tag-attribute {
+     color: var(--color-tag-attribute);
+    }
+.tag-value {
+     color: var(--color-tag-value);
+    }
